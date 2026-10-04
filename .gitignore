@@ -1,0 +1,21 @@
+# Secrets - never commit
+.env
+.env.*
+*.key
+*api_key*
+secrets/
+kaggle.json
+
+# Environments / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Raw downloads and per-variant AlphaGenome outputs stay local until the
+# terms are re-checked (see design.md section 9)
+data/raw/
+cache/
+results/dry_run/

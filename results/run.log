@@ -1,0 +1,17 @@
+2026-10-04 03:36:41,171 INFO ATTRITION raw VCF data rows                             remaining=4555206 
+2026-10-04 03:36:41,171 INFO ATTRITION single-nucleotide variants                    remaining=4235234 
+2026-10-04 03:36:41,171 INFO ATTRITION on chr1-22 or X                               remaining=4231506 
+2026-10-04 03:36:41,171 INFO ATTRITION clean pathogenic-type or benign-type label    remaining=1525987 
+2026-10-04 03:36:41,171 INFO ATTRITION recognised review status and >=1 star         remaining=1477790 unrecognised review status: 0
+2026-10-04 03:36:43,601 WARNING MC terms not mapped to any stratum (see data/mc_term_counts.csv):
+               mc_term  n_pathogenic  n_benign mapped_to
+no_sequence_alteration           0.0      85.0  UNMAPPED
+2026-10-04 03:36:43,601 INFO ATTRITION [primary] review status >= 2 stars            remaining=396770 
+2026-10-04 03:36:43,638 INFO ATTRITION [primary] mapped to a consequence stratum     remaining=394703 unmapped: 2067
+2026-10-04 03:36:43,777 INFO ATTRITION [primary] final sample                        remaining=3228 per_class<=250, gene_cap=10
+2026-10-04 03:36:44,211 INFO ATTRITION [onestar] final sample                        remaining=887 per_class<=60, gene_cap=10
+2026-10-04 03:42:44,405 INFO 20 variants in sample, 0 already cached, 20 to query
+2026-10-04 03:44:09,338 INFO 4115 variants in sample, 20 already cached, 4095 to query
+2026-10-04 03:47:28,677 INFO primary: {'n_sampled': 3228, 'n_missing_score': 0}
+2026-10-04 03:47:52,954 INFO primary: {'n_sampled': 3228, 'n_missing_score': 0}
+2026-10-04 03:48:54,641 INFO onestar_union: {'n_sampled': 4115, 'n_missing_score': 0}

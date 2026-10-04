@@ -1,0 +1,1 @@
+markdown==3.11   # only needed to build the paper (paper/build_paper.py)

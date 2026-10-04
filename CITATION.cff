@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. Research use only; no clinical claims."
+title: "AVI vs ClinVar: an independent evaluation of the AlphaGenome Variant Impact score"
+type: software
+authors:
+  - family-names: "Ranjan"
+    given-names: "Atharv"
+    affiliation: "Independent researcher"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-04"
+repository-code: "https://github.com/Arths17/avi-clinvar-eval"
+keywords:
+  - AlphaGenome
+  - AVI
+  - ClinVar
+  - variant effect prediction
+  - benchmark

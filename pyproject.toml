@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avi-eval"
+version = "0.1.0"
+description = "Independent evaluation of the AlphaGenome Variant Impact (AVI) score on ClinVar"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Atharv Ranjan" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,16 @@
+{
+  "clinvar_file": "clinvar_20260928.vcf.gz",
+  "clinvar_md5": "707723f0a08d1d711eb1c1de660a9098",
+  "clinvar_sha256": "e0ac8e4d2d8f08d3faf845c5b5baa46b2051a8254cb0be4509a586fb15b81cb0",
+  "clinvar_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20260928.vcf.gz",
+  "prepared_at": "2026-10-04T08:36:44+00:00",
+  "seed": 20261004,
+  "python": "3.12.12",
+  "pandas": "3.0.6",
+  "numpy": "2.5.3",
+  "scikit-learn": "1.9.1",
+  "alphagenome": "0.9.0",
+  "n_primary": 3228,
+  "n_onestar": 887,
+  "api_calls_used": 4115
+}

@@ -1,0 +1,93 @@
+{
+  "A_integrity": {
+    "rows": 3228,
+    "variation_id_unique": true,
+    "coord_keys_unique": true,
+    "nan_scores": 0,
+    "sklearn_pooled_auc": 0.905052749571149,
+    "sklearn_auc_by_stratum": {
+      "intronic": 0.980016,
+      "missense": 0.9634079999999999,
+      "nonsense_start_stop": 0.835648,
+      "other_noncoding": 0.9442352941176471,
+      "splice_canonical": 0.8435177304964538,
+      "synonymous": 0.974704,
+      "utr3": 0.9418181818181818,
+      "utr5": 0.7737499999999999
+    },
+    "raw_vcf_recheck": {
+      "n_checked": 300,
+      "mismatches": 0
+    }
+  },
+  "B_shuffle_null_macro_auc": {
+    "mean": 0.49942116096916606,
+    "p2.5": 0.4671418397995127,
+    "p97.5": 0.5289704357762545
+  },
+  "C_top_single_feature_auc_by_stratum": {
+    "nonsense_start_stop": {
+      "PROTEIN_TERMINATION": 0.830992,
+      "CACTUS_241_WAY": 0.75688,
+      "PHASTCONS_470_WAY": 0.749984,
+      "MAX_ABS_CHIP_TF": 0.30265600000000004
+    },
+    "splice_canonical": {
+      "MERGED_SPLICING": 0.8055886524822695,
+      "CACTUS_241_WAY": 0.8027234042553192,
+      "MAX_ABS_CAGE": 0.775517730496454,
+      "MAX_ABS_CONTACT_MAPS": 0.7653333333333334
+    },
+    "missense": {
+      "ALPHAMISSENSE": 0.962256,
+      "PHASTCONS_470_WAY": 0.9379439999999999,
+      "CACTUS_241_WAY": 0.8368960000000001,
+      "MERGED_SPLICING": 0.629856
+    },
+    "synonymous": {
+      "MERGED_SPLICING": 0.9894720000000001,
+      "MAX_ABS_CONTACT_MAPS": 0.898064,
+      "MAX_ABS_CAGE": 0.893872,
+      "CACTUS_241_WAY": 0.881584
+    },
+    "intronic": {
+      "MERGED_SPLICING": 0.9759839999999999,
+      "MAX_ABS_CAGE": 0.903888,
+      "MAX_ABS_CONTACT_MAPS": 0.8968799999999999,
+      "MAX_ABS_RNA_SEQ": 0.846048
+    },
+    "utr5": {
+      "CACTUS_241_WAY": 0.7486666666666667,
+      "MAX_ABS_CHIP_TF": 0.32633333333333336,
+      "MAX_ABS_RNA_SEQ": 0.6660833333333334,
+      "PHASTCONS_470_WAY": 0.654
+    },
+    "utr3": {
+      "MAX_ABS_RNA_SEQ": 0.9567272727272726,
+      "MAX_ABS_CONTACT_MAPS": 0.9187272727272728,
+      "MAX_ABS_CAGE": 0.8969090909090909,
+      "CACTUS_241_WAY": 0.8816363636363637
+    },
+    "other_noncoding": {
+      "CACTUS_241_WAY": 0.9738823529411765,
+      "PHASTCONS_470_WAY": 0.9079999999999999,
+      "MAX_ABS_CHIP_TF": 0.10023529411764706,
+      "MAX_ABS_RNA_SEQ": 0.8200000000000001
+    }
+  },
+  "D_af_shortcut_file": "results/diagnostics_af_shortcut.csv",
+  "D_median_af_among_variants_with_af": {
+    "0": 0.01038,
+    "1": 3e-05
+  },
+  "E_heldout_chrom_auc": {
+    "intronic": 0.9799783549783551,
+    "missense": 0.9684775318578136,
+    "nonsense_start_stop": 0.841060985797828,
+    "other_noncoding": 0.8897435897435897,
+    "splice_canonical": 0.8121843434343434,
+    "synonymous": 0.9767660910518055,
+    "utr3": 1.0,
+    "utr5": 0.862093352192362
+  }
+}

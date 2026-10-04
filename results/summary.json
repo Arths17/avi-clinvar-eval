@@ -1,0 +1,32 @@
+{
+  "primary_load": {
+    "n_sampled": 3228,
+    "n_missing_score": 0
+  },
+  "leave_top5_genes_out": {
+    "removed_genes": [
+      "NF1",
+      "MLH1",
+      "ATM",
+      "LDLR",
+      "BRCA2"
+    ],
+    "n_remaining": 3091,
+    "roc_auc": 0.9023691334753268,
+    "pr_auc": 0.8030597050248648
+  },
+  "ties": {
+    "n_unique_avi_raw": 3228,
+    "n_rows": 3228,
+    "n_unique_phred": 3202
+  },
+  "sanity": {
+    "needs_investigation": true,
+    "flags": [
+      "stratum:synonymous ROC-AUC 0.975 looks implausible",
+      "stratum:intronic ROC-AUC 0.980 looks implausible"
+    ]
+  },
+  "n_boot": 2000,
+  "seed": 20261004
+}

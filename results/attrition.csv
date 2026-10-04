@@ -1,0 +1,10 @@
+step,n_remaining,n_dropped,note
+raw VCF data rows,4555206,,
+single-nucleotide variants,4235234,319972.0,
+on chr1-22 or X,4231506,3728.0,
+clean pathogenic-type or benign-type label,1525987,2705519.0,
+recognised review status and >=1 star,1477790,48197.0,unrecognised review status: 0
+[primary] review status >= 2 stars,396770,1081020.0,
+[primary] mapped to a consequence stratum,394703,2067.0,unmapped: 2067
+[primary] final sample,3228,391475.0,"per_class<=250, gene_cap=10"
+[onestar] final sample,887,2341.0,"per_class<=60, gene_cap=10"

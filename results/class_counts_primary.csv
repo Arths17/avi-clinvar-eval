@@ -1,0 +1,10 @@
+stratum,n_benign,n_pathogenic
+nonsense_start_stop,250,250
+splice_canonical,141,250
+missense,250,250
+synonymous,250,250
+splice_region,0,0
+intronic,250,250
+utr5,250,48
+utr3,250,22
+other_noncoding,250,17

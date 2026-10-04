@@ -1,0 +1,10 @@
+{
+  "title": "AVI vs ClinVar: code for an independent evaluation of the AlphaGenome Variant Impact score",
+  "upload_type": "software",
+  "description": "Code, pre-registered study design, tests and aggregate results for an independent evaluation of the AlphaGenome Variant Impact (AVI) score on ClinVar. Research use only; no clinical or diagnostic claims; not medical advice. Per-variant AlphaGenome outputs are not included. AlphaGenome outputs are subject to the AlphaGenome Output Terms of Use (https://deepmind.google.com/science/alphagenome/output-terms). Not affiliated with Google or Google DeepMind.",
+  "creators": [{"name": "Ranjan, Atharv", "affiliation": "Independent researcher"}],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["AlphaGenome", "AVI", "ClinVar", "variant effect prediction", "pathogenicity", "benchmark", "genomics"],
+  "language": "eng"
+}

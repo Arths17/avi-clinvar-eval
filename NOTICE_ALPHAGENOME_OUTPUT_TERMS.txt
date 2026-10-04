@@ -1,0 +1,22 @@
+Legally Binding Terms of Use
+
+Any AlphaGenome Output or Derivatives published or distributed from this
+project (including AVI scores, AVI feature breakdowns, and figures or tables
+derived from them) are provided under, and subject to, the AlphaGenome Output
+Terms of Use, and to any modifications made to the Output.
+
+Required notice text (quoted from the AlphaGenome Services Additional Terms of
+Service, version last modified September 8, 2026, section "Prohibitions and
+Confidentiality"):
+
+  "By using this information, you agree to AlphaGenome Output Terms of Use
+   found at https://deepmind.google.com/science/alphagenome/output-terms"
+
+Summary of the use restrictions (read the full terms; this is not legal advice):
+  - Non-commercial use only (individuals and non-commercial organisations).
+  - Not for clinical use; not to be relied on for medical or professional advice.
+  - Do not use Output to train machine-learning models that predict variant effects.
+  - API credentials are personal and must never be published or shared.
+
+This project is independent research. It is not affiliated with or endorsed by
+Google or Google DeepMind. It makes no clinical or diagnostic claims.
