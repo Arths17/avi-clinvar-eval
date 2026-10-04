@@ -1,7 +1,8 @@
 # How well does the AlphaGenome Variant Impact (AVI) score separate pathogenic from benign human genetic variants? An independent evaluation on ClinVar
 
 **Atharv Ranjan** — Independent researcher, no institutional affiliation  
-Preprint, draft of 4 October 2026. Not peer reviewed.
+Preprint, 4 October 2026. Not peer reviewed.  
+Cite as: Ranjan A. (2026). Zenodo. doi:10.5281/zenodo.23134413
 
 > **Research use only. This work makes no clinical or diagnostic claims and is not medical advice.** The AVI score and the other AlphaGenome outputs analysed here are for theoretical modelling; they are not intended, validated or approved for clinical use.
 
@@ -213,7 +214,7 @@ AlphaGenome outputs and derivatives reproduced in this paper (aggregate AVI stat
 
 ## 8. Data and code availability
 
-* **Code, pre-registered design, tests, sample lists and aggregate results:** https://github.com/Arths17/avi-clinvar-eval. A software DOI via Zenodo is pending: [ZENODO CODE DOI PENDING].
+* **Code, pre-registered design, tests, sample lists and aggregate results:** https://github.com/Arths17/avi-clinvar-eval. A tagged release of the code is archived on Zenodo; its DOI is listed under "Related works" on this record.
 * **ClinVar data** are public (NCBI); the exact file is named in Section 2.2.
 * **Per-variant AlphaGenome outputs** (individual AVI scores and feature breakdowns) are **not redistributed** in the repository; they can be regenerated with the code and a personal API key.
 * **GENCODE** release 46 (basic annotation, GRCh38) was used for the exploratory distance analysis (EBI GENCODE FTP, MD5 `9d4f206f82756340967a79a96db5bea6`).
@@ -223,7 +224,7 @@ AlphaGenome outputs and derivatives reproduced in this paper (aggregate AVI stat
 * **Independent researcher, no institutional affiliation.**
 * **AI assistance:** AI tools (Claude, Anthropic) assisted with writing the code and drafting this paper. The author reviewed the work and takes responsibility for its content.
 * **No clinical claims:** this work makes no clinical or diagnostic claims and is not medical advice.
-* **Funding / competing interests:** [AUTHOR TO CONFIRM: no funding and no competing interests].
+* **Funding and competing interests:** No specific funding was received for this work. The author declares no competing interests (not employed or paid by Google, Google DeepMind or any related company).
 * **Acknowledgements:** we thank Google DeepMind for AlphaGenome and the AlphaGenome Atlas, NCBI for ClinVar and the submitters to ClinVar, and the GENCODE consortium and EMBL-EBI for the GENCODE annotation.
 
 ## References
