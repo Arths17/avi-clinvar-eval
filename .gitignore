@@ -19,3 +19,6 @@ __pycache__/
 data/raw/
 cache/
 results/dry_run/
+
+# macOS
+.DS_Store
